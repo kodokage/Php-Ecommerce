@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body{
+  background-color: grey;
+  padding: 0px 0px;
+}
+.navbar{
+  background-color: black;
+  padding: 10px;
+  height: 80px;
+}
+.brand{
+  float: left;
+  margin: 20px;
+  color: gold;
+}
+ul{
+  float:right;
+}
+li{
+  margin: 20px;
+  float: left;
+  list-style-type: none;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.search{
+  height: 40px;
+  width: 250px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  padding: 10px;
+}
+a{
+  color: gold;
+}
+a:hover{
+  color:cyan;
+  cursor: pointer;
+}
+.content{
+  margin:;
+  background-color: cyan;
+  height: auto;
+  width: 100%;
+}
+.login{
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+}
+.login_form , h2{
+  color: maroon;
+}
+.login_form input{
+  /* height: 50px; */
+  width: 350px;
+  border: 3px solid gold;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px
+}
+.add_inventory, label{
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+}
+.add_inventory input{
+height: 40px;
+width: 300px;
+border-radius: 10px;
+border: 1px solid green;
+padding: 0px 5px;
+}
+.add_inventory select{
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+  border: 1px solid green;
+  padding: 5px;
+
+}
+.add_inventory textarea{
+  height: 100px;
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid green;
+  padding: 5px;
+
+}
